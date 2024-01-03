@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Product Order Form</title>
+    <link rel="stylesheet" href="/FORM/styles.css">
+</head>
+<body>
+    <form class="order-form">
+        <!-- Text input -->
+        <div class="form-group">
+            <input type="text" id="hair-info" name="textInput" placeholder="Enter hair type or porosity" class="text-input">
+        </div>
+        
+        <!-- Radio buttons -->
+        <fieldset class="form-group">
+            <legend>Do you want hair products based on hair type or hair porosity?</legend>
+            <label for="hairtype"><input type="radio" id="hairtype" name="hair-choice" value="hairtype" checked> Hair Type</label>
+            <label for="hairporosity"><input type="radio" id="hairporosity" name="hair-choice" value="hairporosity"> Hair Porosity</label>
+        </fieldset>
+        
+        <!-- Checkboxes -->
+        <fieldset class="form-group">
+            <legend>You can select multiple or place a custom order?</legend>
+            <label for="leave-in"><input type="checkbox" id="leave-in" name="hairproduct" value="leave-in" checked> Leave-In Conditioner</label>
+            <label for="shampoo"><input type="checkbox" id="shampoo" name="hairproduct" value="shampoo"> Shampoo</label>
+            <label for="castor-oil"><input type="checkbox" id="castor-oil" name="hairproduct" value="castor-oil"> Castor Oil</label>
+        </fieldset>
+        
+        <!-- Submit button -->
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+
+    <nav class="site-links">
+        <ol>
+            <li><a href="https://sheamoisture.com" target="_blank">Shea Moisture Website</a></li>
+            <li><a href="https://cantu.com" target="_blank">Cantu Website</a></li>
+            <li><a href="https://darkandlovely.com" target="_blank">Dark & Lovely Website</a></li>
+        </ol>
+    </nav>
+</body>
+</html>

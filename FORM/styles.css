@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fhair&psig=AOvVaw29-t8ttdKhh3Gw2FOoGiSd&ust=1704399095576000&source=images&cd=vfe&ved=0CBMQjRxqFwoTCLDK5ceDwoMDFQAAAAAdAAAAABAJ");
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.order-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+fieldset {
+    border: solid #ccc;
+    padding: 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.submit-button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: antiquewhite;
+}
+
+.site-links ol {
+    padding-left: 0;
+}
+
+.site-links li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.site-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.site-links a:hover {
+    color: #007bff;
+}

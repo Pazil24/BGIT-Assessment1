@@ -1,0 +1,52 @@
+1. What is the purpose of the HTML <DOCTYPE> declaration?
+It used to describe to the web browser what type of content it is to display and how 
+to render it.
+
+2. Explain the difference between <div> and <span> tags.
+Div tags are block level elements whilst span tags are inline elements.
+
+3. What is semantic HTML, and why is it important?
+Semantic HTMl gives structure and meaning to an html document by using specific tags that makes it easy to
+organize the content on the page. It makes it easy for assistive devices and web crawlers to understand a webpage 
+making it good for SEO and page ranking. Such tags are articles, header, footer etc.
+
+CSS Fundamentals
+4. Describe the difference between margin and padding.
+Margin is the space around the border of an element. The padding is the space btween the content of an element
+the border.
+
+5. What is the box model in CSS?
+It specifies that each element on a web page is rectangular box that contains the margin, padding, borger and the 
+content of the element itself.
+
+6. Explain the CSS specificity hierarchy.
+It is a way css styles are given precedence or priority depending on the type of style element it is. The inline style 
+is given the most priority followed by ids, then classes and pseudo classes etc.
+
+Responsive Design
+7. What is a media query, and how is it used in responsive design?
+It is a css technique used to apply styles to different devices based on their screen sizes. It is used to build web
+pages and applications that resize to fit any screen size without looking funny.
+
+8. Discuss the differences between adaptive and responsive design.
+Responsive design is fluid and changes dynamically to fit the screen of the user based on the device. Adaptive
+design is static.
+
+9. Explain the concept of a viewport in web development.
+Viewport is the screen that is visible to the user and displays content. It varies depending on the device
+ used.
+
+HTML5 and CSS3 Features
+10. List and briefly explain three new features introduced in HTML5.
+Canvas for rendering 2D shapes.
+Semantic Elements like <article>, <header>, and <footer> provide better document structure.
+video and audio that allow media files to be added in html.
+
+11. What are CSS variables, and how do they differ from traditional variables in
+programming languages?
+CSS variables are used to store styles for reuse like color and unlike traditional variables in programming
+that can store data types and be manipulated.
+
+12. Discuss the advantages of using Flexbox or Grid layout in CSS.
+Flexbox is helps align items that are one dimensional on a web page to display resonsively. Grid layout helps
+lay content of two-dimensions on a webpage to display responsively on different screen sizes.
